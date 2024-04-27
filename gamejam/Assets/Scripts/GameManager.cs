@@ -34,7 +34,10 @@ public class GameManager : MonoBehaviour
     // public GameObject Smoothie;
 
     private string[] orderArray; //주문을 저장하는 배열
+    private string[] goodReactionArray; //좋은 반응들을 저장하는 배열
+    private string[] badReactionArray; //나쁜 반응들을 저장하는 배열
     private List<clearInfo> answerArray; //주문에 대한 정답을 저장하는 배열
+
     //private bool[] repeatArray;
     //private Stack<int> indexStack;
 
