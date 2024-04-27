@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxTime: 0
-  GameTime: 5
+  GameTime: 1000
   TimeBar: {fileID: 1155645206}
   _isOrdering: 0
   orderText: {fileID: 1568489683}
