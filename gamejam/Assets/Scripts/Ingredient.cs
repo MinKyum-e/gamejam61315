@@ -14,7 +14,7 @@ public class Ingredient : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 
     private void OnMouseDown()
@@ -27,14 +27,13 @@ public class Ingredient : MonoBehaviour
         Vector2 mouse_position = Input.mousePosition;
         mouse_position = cam.ScreenToWorldPoint(mouse_position);
         transform.position = mouse_position;
-        
     }
     private void OnMouseUp()
     {
         Vector2 mouse_position = Input.mousePosition;
         mouse_position = cam.ScreenToWorldPoint(mouse_position);
         RaycastHit2D hit = Physics2D.Raycast(mouse_position, Vector3.down, 1, LayerMask.GetMask("table"));
-        if(hit.collider != null)
+        if (hit.collider != null)
         {
             hit.collider.gameObject.GetComponent<Board>().AddIngredient(this);
         }
