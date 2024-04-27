@@ -340,18 +340,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 8
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uC815\uB2F5\uCC98\uB9AC"
 --- !u!222 &472222207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2124269246}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: CorrectDebug
+        m_MethodName: WrongDebug
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 1241157503}
   - component: {fileID: 1241157502}
   m_Layer: 5
-  m_Name: sdjjds
+  m_Name: CorrectBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,18 +1191,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\uC624\uB2F5\uCC98\uB9AC"
 --- !u!222 &2046650978
 CanvasRenderer:
   m_ObjectHideFlags: 0
